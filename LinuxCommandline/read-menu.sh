@@ -33,7 +33,9 @@ while true; do
 			du -sh "$HOME"
 		fi
 	elif (( choice == 4 )); then
-		exit
+		break
 	fi
 done
+
+echo -e "\nExit"
 
